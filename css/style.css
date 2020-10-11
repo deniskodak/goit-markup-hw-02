@@ -10,10 +10,10 @@
   color: #2196f3;
 }
 
-.logo-top .logo-part2 {
+.logo-header .logo-part2 {
   color: #212121;
 }
-.logo-bottom .logo-part2 {
+.logo-footer .logo-part2 {
   color: white;
 }
 /* Стили для боди*/
@@ -27,12 +27,12 @@ body {
   font-weight: normal;
   font-size: 14px;
 }
-.contacts-top a {
+.contacts-header .link {
   line-height: 16px;
   color: #757575;
 }
 
-.contacts-bottom a {
+.contacts-footer .link {
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -64,4 +64,16 @@ footer {
   line-height: 60px;
   text-align: center;
   text-transform: uppercase;
+}
+/* Стили для ссылок*/
+.link:hover {
+  color: blue;
+}
+
+.link {
+  text-decoration: none;
+}
+
+nav .link {
+  color: #212121;
 }
