@@ -21,7 +21,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* Стили для контактов */
+/* Стили для подвала */
 .contacts {
   font-style: normal;
   font-weight: normal;
@@ -46,4 +46,22 @@ body {
 }
 footer {
   background: #2f303a;
+}
+
+/* Стили для секции Команда*/
+.our-team {
+  background: #f5f4fa;
+}
+/* Стили для секции Героя*/
+.hero {
+  background: #2f303a;
+}
+.hero h1 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
 }
