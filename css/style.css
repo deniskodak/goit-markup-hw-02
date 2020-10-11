@@ -1,0 +1,41 @@
+/* Стили для логотипа */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo-part1 {
+  color: #2196f3;
+}
+
+.logo-top .logo-part2 {
+  color: #212121;
+}
+.logo-bottom .logo-part2 {
+  color: white;
+}
+/* Стили для боди*/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Стили для контактов */
+.contacts {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+.contacts-top a {
+  line-height: 16px;
+  color: #757575;
+}
+
+.contacts-bottom a {
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+footer {
+  background: #2f303a;
+}
