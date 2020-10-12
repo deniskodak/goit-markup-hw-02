@@ -1,79 +1,96 @@
-/* Стили для логотипа */
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-size: 26px;
-  text-decoration: none;
-  font-weight: bold;
-}
+/* primary #757575; */
+/* title #212121; */
+/* accent #2196F3; */
+/* Footer contacts rgba(255, 255, 255, 0.6 */
 
-.logo-part1 {
-  color: #2196f3;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --primary-white-color: #ffffff;
+  --primary-bg-color: #2f303a;
+  --secondary-bg-color: #f5f4fa;
 }
-
-.logo-header .logo-part2 {
-  color: #212121;
+/* Отключает точки в списках */
+.list {
+  list-style: none;
 }
-.logo-footer .logo-part2 {
-  color: white;
-}
-/* Стили для боди*/
+/* Стили цвета для текста body  */
 body {
-  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
 }
 
-/* Стили для подвала */
-.contacts {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+/* Стили цвета для заголовков */
+.section .title {
+  color: var(--title-text-color);
 }
+
+/* Стили для ссылок навигации */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* Стили для контактов почты и тел. */
 .contacts-header .link {
-  line-height: 16px;
-  color: #757575;
+  color: var(--primary-text-color);
 }
-
 .contacts-footer .link {
-  line-height: 24px;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-contacts-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-text-color);
 }
 
-.location {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-}
-footer {
-  background: #2f303a;
+/* Стили для места локации */
+.contacts .location {
+  color: var(--primary-white-color);
 }
 
-/* Стили для секции Команда*/
-.our-team {
-  background: #f5f4fa;
+/* Стили для логотипа */
+.logo .logo-web {
+  color: var(--accent-text-color);
 }
-/* Стили для секции Героя*/
+
+.logo-header .logo-studio {
+  color: var(--title-text-color);
+}
+.logo-footer .logo-studio {
+  color: var(--primary-white-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-text-color);
+}
+/* Стили секции Героя */
+.hero .title {
+  color: var(--primary-white-color);
+}
 .hero {
-  background: #2f303a;
-}
-.hero h1 {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  text-align: center;
-  text-transform: uppercase;
-}
-/* Стили для ссылок*/
-.link:hover {
-  color: blue;
+  background-color: var(--primary-bg-color);
 }
 
-.link {
-  text-decoration: none;
+/* Стили для кнопки */
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-text-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--accent-text-color);
 }
 
-nav .link {
-  color: #212121;
+/*Стили для подвала */
+footer {
+  background-color: var(--primary-bg-color);
+}
+
+/* Стили для секции Команда */
+.our-team {
+  background-color: var(--secondary-bg-color);
 }
