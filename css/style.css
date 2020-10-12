@@ -75,14 +75,24 @@ body {
   background-color: var(--primary-bg-color);
 }
 
-/* Стили для кнопки */
+/* Стили для кнопок */
 .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-text-color);
 }
-.button:hover,
-.button:focus {
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-text-color);
+}
+.button.primary:hover,
+.button.primary:focus {
   color: var(--accent-text-color);
+  background-color: var(--primary-white-color);
 }
 
 /*Стили для подвала */
