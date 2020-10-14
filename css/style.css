@@ -162,7 +162,7 @@ body {
 }
 
 /*Стили для подвала */
-footer {
+.footer {
   background-color: var(--primary-bg-color);
 }
 
