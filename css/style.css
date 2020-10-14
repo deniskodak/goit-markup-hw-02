@@ -28,6 +28,8 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
+
+  background-color: #ffffff;
 }
 
 /* Стили для ссылок навигации */
